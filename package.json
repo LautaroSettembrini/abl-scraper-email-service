@@ -1,0 +1,29 @@
+{
+  "name": "abl-email-invoice-api-demo",
+  "version": "1.0.0",
+  "description": "Demo Node.js microservice to scrape ABL invoice data and send results via email. For portfolio use only.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.16",
+    "puppeteer": "^23.9.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Lautaro Settembrini",
+  "license": "UNLICENSED",
+  "keywords": [
+    "nodejs",
+    "express",
+    "puppeteer",
+    "email",
+    "abl",
+    "demo",
+    "scraping"
+  ]
+}
